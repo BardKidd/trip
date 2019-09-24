@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: '微軟正黑體', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+h1{
+    font-size: 2.5em;
+    letter-spacing: 4px;
+}
+a{
+    color: black;
+}
+.webTitle{
+	background-image: url(../JavaScript_HomeWork-gh-pages/assets/the-urban-landscape-1698285.png);
+    background-repeat: no-repeat;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 380px;
+}
+/*顏色-------------------------------*/
+.f-c-w{
+    color: white;
+}
+/*----------------------------------*/
+select{
+    font-size: 18px;
+    padding: 10px 0 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+.box{
+    max-width: 1024px;
+}
+.fl-w{
+    display: flex;
+    display: -weblit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+nav{
+    border: 1px solid white;
+    box-shadow: 0 0 8px #adadad;
+    border-radius: 8px;
+    padding: 1em 2em;
+    position: relative;
+    top: -30px;
+    background-color: white;
+}
+nav h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3b3b3b;
+    line-height: 36px;
+}
+.itemBor{
+	border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px 35px;
+    font-size: 20px;
+    color: white;
+    margin-left: 25px;
+}
+/*itemBor-BGC---------------------*/
+.bgc-p{
+    background-color: #8A82CC;
+}
+.bgc-rr{
+    background-color: #FFA782;
+}
+.bgc-y{
+    background-color: #F5D105;
+}
+.bgc-b{
+    background-color: #559AC8;
+}
+/*--------------------------------*/
+.downIcon{
+	color: #559AC8;
+    border: 2px solid #559AC8;
+    border-radius: 60px;
+    width: 24px;
+    height: 24px;
+}
+footer{
+    font-size: 14px;
+    padding: 20px 0;
+}
+footer h2{
+    color: white;
+}
+footer a{
+    color: #FFD366;
+}
+/*顯示資料------------------------*/
+.list{
+    
+}
+.list h3{
+    font-size: 24px;
+    color: white;
+    padding-left: 22px;
+    padding-bottom: 29px
+}
+.list h2{
+    color: #8A82CC;
+    font-size: 36px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.list li{
+    width: 48%;
+    margin: 0 auto 36px;
+    background-position: center top;
+    background-size: 100% 155px;
+    height: 273px;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 4px gray;
+    padding: 110px 5px 0 0;
+}
+.list img{
+    float: left;
+    padding: 0 9px 0 23px;
+}
+.list span{
+	float: right;
+}
+.list b{
+    float: right;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 32px;
+}
